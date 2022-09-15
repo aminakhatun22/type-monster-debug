@@ -198,14 +198,14 @@ button {
 /* desktop */
 
 @media only screen and (min-width: 992px) {
-  .box-container {
-    padding: 1em;
-    grid-row-gap: 100px;
-  }
 
-  .histories {
+
+  #histories {
     display: grid;
-    grid-template-columns: repeate(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+
+
 
   }
 
